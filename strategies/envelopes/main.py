@@ -26,7 +26,7 @@ async def main():
         "DEAI": {  # Adapter les paires pour MEXC
             "src": "close",
             "ma_base_window": 7,
-            "envelopes": [0.2, 0.18, 0.16], #0.1, 0.06, 0.04
+            "envelopes": [0.1, 0.06, 0.04], #0.1, 0.06, 0.04
             "size": 1,
             "sides": ["long", "short"],
         },
